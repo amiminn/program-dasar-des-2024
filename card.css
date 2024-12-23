@@ -1,0 +1,68 @@
+/* * {
+  border: solid 2px red;
+} */
+
+.text-sm {
+  font-size: 25px; /* 14px */
+}
+
+h4 {
+  font-size: 25px; /* 20px */
+  color: blueviolet;
+}
+
+.text-red {
+  color: red;
+}
+
+#tidakalkohol {
+  color: red;
+  background-color: brown;
+}
+
+.box {
+  /* background-image: url("bg.jpg"); */
+  color: white;
+  font-size: 100px;
+  text-align: center;
+
+  border: solid 2px red;
+
+  background-color: violet;
+
+  margin: 5px 5px 5px 5px;
+  padding: 20px 5px 40px 0px;
+}
+
+.box2 {
+  width: 400px;
+  height: 100px;
+
+  background-color: blue;
+}
+
+.card {
+  border: 2px solid #7469b6;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 15px 0px 15px 0px;
+}
+
+.head {
+  color: #ff3535;
+}
+
+.foot {
+  color: #86c8bc;
+}
+
+.content {
+  color: #358db3;
+  padding: 0px 0px;
+}
+
+.bg-head {
+  background-color: #ffd4b2;
+  padding: 20px 10px;
+  border-radius: 15px 15px 0px 0px;
+}
