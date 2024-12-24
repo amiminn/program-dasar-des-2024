@@ -112,14 +112,70 @@ const nilai = 70;
 //   console.log("nilai anda pas");
 // } else if (nilai < 50) {
 //   console.log("belajar lagi ya");
-// } else {
+// } else{
 //   console.log("tidak lulus");
 // }
 
-// variabel baru nilai
+// variabel baru nilai = 80 const nilai = 80;
 // buatkan soal statement if else if else
 // 1. jika nilai lebih dari 90 maka outputnya A
 // 2. jika nilai lebih dari 80 maka outputnya B
 // 3. jika nilai lebih dari 70 maka outputnya C
 // 4. jika nilai lebih dari 60 maka outputnya D
 // 5. jika nilai kurang dari 60 maka outputnya E
+
+// if (nilai > 90) {
+//   console.log("A");
+// } else if (nilai > 80) {
+//   console.log("B");
+// } else if (nilai > 70) {
+//   console.log("C");
+// } else if (nilai > 60) {
+//   console.log("D");
+// } else {
+//   console.log("E");
+// }
+
+// array dan object
+
+const sekolah = {
+  nama: "SMK N 1 Sleman",
+  alamat: "Jalan Merapi",
+  siswa: [
+    {
+      nama: "Andi",
+      umur: 18,
+    },
+    {
+      nama: "Budi",
+      umur: 19,
+    },
+    {
+      nama: "Caca",
+      umur: 20,
+    },
+  ],
+  guru: ["Pak A", "Pak B", "Pak C"],
+};
+// sekolah.siswa[1].nama sekolah.guru[2]
+// console.log(sekolah.siswa[1].nama); // Budi
+// console.log(sekolah.guru[2]); // Pak C
+
+const toko = {
+  nama: "Toko Buah",
+  alamat: "Jalan Merapi",
+  buah: ["apel", "jeruk", "mangga"],
+  minuman: {
+    dingin: ["es teh", "es jeruk"],
+    panas: ["teh", "kopi"],
+  },
+  makanan: {
+    ringan: ["kerupuk", "permen"],
+    berat: {
+      kuah: ["soto", "rawon"],
+      goreng: ["tempe", "tahu"],
+    },
+  },
+};
+
+console.log(toko.makanan.berat.goreng[0]); // tahu
