@@ -236,15 +236,15 @@ const penjumlahan = (...x) => {
   return sum;
 };
 
-console.log(penjumlahan(12, 23, 83));
+// console.log(penjumlahan(12, 23, 83));
 
 const box2 = (x, y) => x * y;
 
-async function getData() {
-  const data = await fetch("https://api.amiminn.my.id");
-  const res = await data.json();
-  console.log(res.author);
-}
+// async function getData() {
+//   const data = await fetch("https://api.amiminn.my.id");
+//   const res = await data.json();
+//   console.log(res.author);
+// }
 
 // getData();
 
@@ -257,3 +257,26 @@ function cek() {
 const cek2 = function () {
   console.log("hasil cek 2");
 };
+
+const repo = "https://github.com/amiminn/program-dasar-des-2024";
+
+// const 1 = 1
+const namasaya = "asep";
+// const umur+ = 18
+const alamat_saya = "sleman";
+const anak1 = "anwar";
+
+// console.log(namasaya);
+
+let text = "";
+
+text += "hello";
+text += " nama saya yusuf";
+
+// console.log(text);
+
+for (let angka = 0; angka < 5; angka++) {
+  console.log(angka);
+}
+
+function angka_perkalian() {}
