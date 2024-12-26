@@ -178,4 +178,82 @@ const toko = {
   },
 };
 
-console.log(toko.makanan.berat.goreng[0]); // tahu
+// console.log(toko.makanan.berat.goreng[0]); // tahu
+
+//function
+
+function hujan() {
+  return "hujan";
+}
+// console.log(hujan());
+
+// parameter pertama berupa x, param 2 = y
+function tambah(x, y) {
+  const z = x + y;
+  return "hasil nya = " + z;
+}
+
+function kurang(x, y, z) {
+  const hasil = x - y - z;
+  return hasil;
+}
+
+// console.log(tambah(15, 7));
+// console.log(kurang(15, 7, 2));
+
+// function dengan param default
+function kali(x = 1, y = 2) {
+  const hasil = x * y;
+  return hasil;
+}
+
+// console.log(kali());
+
+// function kubus(x)
+
+function kubus(s) {
+  return s * s * s;
+}
+
+// function persegipanjang() x,y
+
+// type 1
+function bagi(x, y) {
+  return x / y;
+}
+
+// type 2 variable function
+const modulus = function (x, y) {
+  return x % y;
+};
+
+// type 3 arrow function, ada 2 bentuk
+const penjumlahan = (...x) => {
+  let sum = 0;
+  x.forEach((num) => {
+    sum += num;
+  });
+  return sum;
+};
+
+console.log(penjumlahan(12, 23, 83));
+
+const box2 = (x, y) => x * y;
+
+async function getData() {
+  const data = await fetch("https://api.amiminn.my.id");
+  const res = await data.json();
+  console.log(res.author);
+}
+
+// getData();
+
+// cek2();
+
+function cek() {
+  console.log("hasil cek");
+}
+
+const cek2 = function () {
+  console.log("hasil cek 2");
+};
