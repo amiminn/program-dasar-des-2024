@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Latihan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="flex">
+      <div class="w-[45%] px-20 py-14 grid">
+        <div class="flex gap-5">
+          <div class="w-16 h-16 bg-stone-800 rounded-lg p-2">
+            <img
+              src="https://accessible-astro-dashboard.netlify.app/astro-logo.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <div class="font-black text-xl">Astro Dashboard</div>
+            <div>An Accessible Astro Theme</div>
+          </div>
+        </div>
+        <div class="text-5xl font-black text-stone-800">Login</div>
+        <form class="grid gap-4">
+          <div class="grid gap-1">
+            <label for="email" class="text-lg">Email</label>
+            <input
+              type="text"
+              id="email"
+              class="py-2 px-3 text-lg border border-2 border-slate-600 rounded"
+            />
+          </div>
+          <div class="grid gap-1">
+            <label for="password" class="text-lg">Password</label>
+            <input
+              type="password"
+              id="password"
+              class="py-2 px-3 text-lg border border-2 border-slate-600 rounded"
+            />
+          </div>
+          <div class="flex items-center gap-2">
+            <input type="checkbox" id="remember" class="h-4 w-4" />
+            <label for="remember" class="text-lg">Remember me</label>
+          </div>
+          <button
+            class="py-2 px-4 w-full bg-orange-500 text-white text-xl rounded"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+      <div
+        class="w-[55%] h-screen bg-[url('https://accessible-astro-dashboard.netlify.app/login-background.webp')] bg-no-repeat bg-center bg-cover"
+        style="background-size: 100% auto"
+      ></div>
+    </main>
+  </body>
+</html>
